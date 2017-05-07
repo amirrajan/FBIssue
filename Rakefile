@@ -13,8 +13,8 @@ Motion::Project::App.setup do |app|
   app.name = 'FB Issue'
 
   app.pods do
-    pod 'FBSDKCoreKit'
-    pod 'FBSDKLoginKit'
-    pod 'FBSDKShareKit'
+    pod 'FBSDKCoreKit', git: 'https://github.com/amirrajan/facebook-ios-sdk.git'
+    pod 'FBSDKLoginKit', git: 'https://github.com/amirrajan/facebook-ios-sdk.git'
+    pod 'FBSDKShareKit', git: 'https://github.com/amirrajan/facebook-ios-sdk.git'
   end
 end

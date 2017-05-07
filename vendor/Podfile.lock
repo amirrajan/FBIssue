@@ -13,9 +13,28 @@ PODS:
     - FBSDKCoreKit
 
 DEPENDENCIES:
-  - FBSDKCoreKit
-  - FBSDKLoginKit
-  - FBSDKShareKit
+  - FBSDKCoreKit (from `https://github.com/amirrajan/facebook-ios-sdk.git`)
+  - FBSDKLoginKit (from `https://github.com/amirrajan/facebook-ios-sdk.git`)
+  - FBSDKShareKit (from `https://github.com/amirrajan/facebook-ios-sdk.git`)
+
+EXTERNAL SOURCES:
+  FBSDKCoreKit:
+    :git: https://github.com/amirrajan/facebook-ios-sdk.git
+  FBSDKLoginKit:
+    :git: https://github.com/amirrajan/facebook-ios-sdk.git
+  FBSDKShareKit:
+    :git: https://github.com/amirrajan/facebook-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  FBSDKCoreKit:
+    :commit: b81c12d6044152bc7e386581ee3a074ef3a070ac
+    :git: https://github.com/amirrajan/facebook-ios-sdk.git
+  FBSDKLoginKit:
+    :commit: b81c12d6044152bc7e386581ee3a074ef3a070ac
+    :git: https://github.com/amirrajan/facebook-ios-sdk.git
+  FBSDKShareKit:
+    :commit: b81c12d6044152bc7e386581ee3a074ef3a070ac
+    :git: https://github.com/amirrajan/facebook-ios-sdk.git
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
@@ -23,6 +42,6 @@ SPEC CHECKSUMS:
   FBSDKLoginKit: 1fa529fc622d7b32ebeaffbecd377180833c6d30
   FBSDKShareKit: 21ab3c8d173f4fa20c47c1061f3a9fac5950b5fa
 
-PODFILE CHECKSUM: 3a94042de898e6591cf7ba2831a6ffdb939cba2c
+PODFILE CHECKSUM: cf57c56b89ec42bf77c88bd0c1a2b7de7bac1873
 
 COCOAPODS: 1.2.1
